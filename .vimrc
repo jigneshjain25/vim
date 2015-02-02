@@ -49,8 +49,9 @@ imap <C-v> <ESC>"+pa
 
 nnoremap <leader>cc :0r /etc/vim/cpptemplate.cpp<CR>
 
-:set lines=999 columns=85
-:winpos 800 0
+" :set lines=999 columns=85
+" :winpos 800 0
+:set lines=999 columns=999
 
 "folding settings
 set foldmethod=indent   "fold based on indent
